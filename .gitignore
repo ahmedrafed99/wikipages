@@ -1,0 +1,32 @@
+# Scala-specific ignores
+target/
+project/target/
+.idea/
+*.iml
+
+# SBT-specific ignores
+lib_managed/
+project/boot/
+project/plugins/project/
+
+# macOS-specific ignores
+.DS_Store
+
+# Editor/IDE-specific ignores
+.vscode/
+*.code-workspace
+*.idea/workspace.xml
+*.idea/modules.xml
+*.idea/*.iml
+*.idea/.name
+*.idea/misc.xml
+*.idea/vcs.xml
+*.idea/*.sbt
+*.idea/libraries/
+*.scala_dependencies
+
+# Build-related ignores
+logs/
+dist/
+logs/
+out/

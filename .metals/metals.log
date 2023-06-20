@@ -1,0 +1,81 @@
+2023.06.20 09:02:32 INFO  Started: Metals version 0.11.12 in workspace 'E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages' for client Visual Studio Code 1.79.2.
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\.metals\metals (H2 2.1)
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.014s)
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 20, 2023 9:02:32 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 20, 2023 9:02:33 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 20, 2023 9:02:33 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 20, 2023 9:02:33 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.050s)
+2023.06.20 09:02:33 INFO  time: initialize in 0.7s
+2023.06.20 09:02:33 WARN  Build server is not auto-connectable.
+2023.06.20 09:03:12 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\project\plugins.sbt
+2023.06.20 09:03:13 INFO  no build target found for E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 09:03:14 INFO  time: code lens generation in 1.73s
+2023.06.20 09:05:57 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\project\plugins.sbt
+2023.06.20 09:06:01 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\project\plugins.sbt
+2023.06.20 09:06:03 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\project\plugins.sbt
+2023.06.20 09:06:29 INFO  skipping build import with status 'Dismissed'
+2023.06.20 09:06:29 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\build.sbt
+2023.06.20 09:18:04 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\build.sbt
+2023.06.20 09:18:06 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\build.sbt
+2023.06.20 09:18:12 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\build.sbt
+2023.06.20 09:18:12 INFO  skipping build import with status 'Dismissed'
+2023.06.20 09:18:13 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\build.sbt
+2023.06.20 09:18:13 INFO  skipping build import with status 'Dismissed'
+2023.06.20 09:23:03 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:23:07 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:25:36 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:25:38 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:25:44 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:26:01 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:34:14 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:34:17 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:34:27 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:07 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:13 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:15 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:19 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:23 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:25 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:30 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:34 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:35:35 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:36:46 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:36:50 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:36:59 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:37:16 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:37:23 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:45:20 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:45:21 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:45:24 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:45:27 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:45:32 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:47:15 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:47:21 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:49:13 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:49:18 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:49:40 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:52:42 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:52:44 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:52:47 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:52:49 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
+2023.06.20 09:52:52 WARN  no build target for: E:\Downloads\Exam-Scala 2\Exam-Scala\wikipages\wikipages\src\main\scala\Main.scala
