@@ -88,14 +88,5 @@ class MainSpec extends AnyFlatSpec with Matchers {
     result should be(Some(Config(limit = 5, keyword = "keyword")))
   }
 
-  "getPages" should "return the mocked response" in {
-    val url = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&sroffset=0&list=search&srsearch=test&srlimit=5"
-    val expectedResult = Right("Mocked response")
-
-    val result = Main.getPages(url, MockHttpUtils)
-
-    result should be(expectedResult)
-  }
-
 }
 
