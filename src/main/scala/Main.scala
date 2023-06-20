@@ -1,6 +1,7 @@
 import scopt.OParser
 import scalaj.http.{Http, HttpResponse}
 import play.api.libs.json.{Json, JsValue, JsArray}
+import test.utils.HttpUtils
 
 case class Config(limit: Int = 10, keyword: String = "")
 
@@ -59,9 +60,12 @@ object Main extends App {
     s"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&sroffset=0&list=search&srsearch=$keyword&srlimit=$limit"
   }
 
-  
+  def getPages(url: String, httpUtils: HttpUtils): Either[Int, String] = {
+    httpUtils.parse(url)
+  }
 
-  def getPages(url: String): Either[Int, String] = {
+
+  /*def getPages(url: String): Either[Int, String] = {
     val response: HttpResponse[String] = Http(url).asString
 
     if (response.code == 200) {
@@ -69,8 +73,8 @@ object Main extends App {
     } else {
       Left(response.code)
     }
-  }
-
+  } */
+  
   def parseJson(rawJson: String): Seq[WikiPage] = {
     val json: JsValue = Json.parse(rawJson)
     val pages: Seq[JsValue] = (json \ "query" \ "search").as[JsArray].value

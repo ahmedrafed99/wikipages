@@ -4,3 +4,5 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.9.3",
   "com.github.scopt" %% "scopt" % "4.1.0"
 )
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.11" % "test"
