@@ -1,7 +1,10 @@
 import scopt.OParser
 import scalaj.http.{Http, HttpResponse}
+import play.api.libs.json.{Json, JsValue, JsArray}
 
 case class Config(limit: Int = 10, keyword: String = "")
+
+case class WikiPage(title: String, words: Int)
 
 object Main extends App {
   parseArguments(args) match {
@@ -37,6 +40,15 @@ object Main extends App {
       case Right(body) =>
         println("API Result:")
         println(body)
+
+        val wikiPages = parseJson(body)
+        println("Parsed Wiki Pages:")
+        wikiPages.foreach(println)
+
+        val total = totalWords(wikiPages)
+        val average = if (wikiPages.nonEmpty) total.toDouble / wikiPages.length.toDouble else 0.0
+        println(s"Total number of words: $total")
+        println(f"Average number of words per page: $average%.2f")
       case Left(code) =>
         println(s"Error: API response with code $code")
     }
@@ -59,5 +71,22 @@ object Main extends App {
     }
   }
 
+  def parseJson(rawJson: String): Seq[WikiPage] = {
+    val json: JsValue = Json.parse(rawJson)
+    val pages: Seq[JsValue] = (json \ "query" \ "search").as[JsArray].value
+
+    pages.map { page =>
+      val title = (page \ "title").as[String]
+      val words = (page \ "wordcount").as[Int]
+      WikiPage(title, words)
+    }
+  }
+
+  def totalWords(pages: Seq[WikiPage]): Int = {
+    pages.foldLeft(0)(_ + _.words)
+  }
+
 
 }
+
+
